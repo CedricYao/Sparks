@@ -1,0 +1,10 @@
+﻿@model WebSample.UI.Models.Home.IndexViewModel[]
+
+<h2>Sparks Little Black Book</h2>
+
+<ul>
+  @foreach(var person in Model)
+  {
+    <li>@person.FirstName @person.LastName - @person.Phone</li>
+  }    
+</ul>
