@@ -1,2 +1,2 @@
-Sparks
+Sparks Rules
 ======
